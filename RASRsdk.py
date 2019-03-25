@@ -7,7 +7,6 @@ import time
 import random
 import os
 
-
 def formatSignString(param):
     signstr = "POSTaai.qcloud.com/asr/v1/"
     for t in param:
