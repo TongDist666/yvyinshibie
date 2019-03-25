@@ -122,7 +122,7 @@ if __name__ == '__main__':
     except  URLError as err:
         #print('asr http response http code : ' + str(err.code))
         result_str = err.read()
-
+        
     if (IS_PY3):
         result_str = str(result_str, 'utf-8')
     print(result_str)
